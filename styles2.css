@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.father {
+  height: 800px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 80px;
+  width: 80px;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.box:nth-child(3):hover {
+  background-color: red;
+}
