@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transition</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles2.css" />
+    <style>
+      .box {
+        background-color: green;
+        color: white;
+        transition: all 3s ease-in-out;
+      }
+      .box:hover {
+        background-color: blue;
+        color: black;
+      }
+      .box2 {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+        transition: all 1s ease-in-out;
+      }
+      .box2:hover {
+        transform: skew(30deg, 20deg) rotate(1turn) scale(0.5, 0.5);
+      }
+    </style>
+  </head>
+
+  <body>
+    <span class="box">
+      Text
+    </span>
+    <div class="box2"></div>
+  </body>
+</html>
