@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>prac animation&media query</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        background-color: green;
+      }
+      head {
+        height: 1000px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        background-color: red;
+        animation: 1.5s luvya infinite ease-in-out;
+      }
+      @keyframes luvya {
+        0% {
+          transform: none;
+        }
+        50% {
+          transform: rotate(1turn) scale(0.5, 0.5);
+          background-color: pink;
+        }
+        100% {
+          transform: none;
+        }
+      }
+      @media screen and (min-width: 320px) and (max-width: 640px) {
+        body {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

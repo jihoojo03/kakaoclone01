@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100px;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  animation: 1s rotatebox infinite ease-in-out;
+}
+
+.smallbox {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 100%;
+}
+@keyframes rotatebox {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
