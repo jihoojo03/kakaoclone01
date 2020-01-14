@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 10px;
+}
+
+.object__box {
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+#firstbox {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#firstbox .friedegg {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+#firstbox .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#firstbox .subtitle {
+  display: block;
+  line-height: 15px;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+#firstbox .object__evaluation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#firstbox .money {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#firstbox i {
+  color: #febd51;
+}
+
+#secondbox {
+  height: 380px;
+  width: 300px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#secondbox .backgroundpicture {
+  height: 180px;
+  width: 300px;
+}
+
+#secondbox .object__picture {
+  position: relative;
+}
+
+#secondbox .norajung {
+  position: absolute;
+  top: -50px;
+  left: 100px;
+  border-radius: 100%;
+  border: 3px solid white;
+  height: 100px;
+  width: 100px;
+}
+
+#secondbox .object__inform {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 130px;
+  width: 100%;
+}
+
+#secondbox .title {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#secondbox .subtitle {
+  display: block;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 28px;
+}
+
+#secondbox .object__button {
+  display: flex;
+  justify-content: space-around;
+}
+
+#secondbox #sm1 {
+  height: 40px;
+  width: 100px;
+  background-color: #6b75ff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#secondbox #sm2 {
+  height: 40px;
+  width: 100px;
+  background-color: #eaecff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#secondbox .Follow {
+  color: white;
+  font-size: 12px;
+}
+
+#secondbox .Message {
+  color: #848cff;
+  font-size: 12px;
+}
