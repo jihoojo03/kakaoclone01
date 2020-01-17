@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 30px;
+}
+
+.trip {
+  width: 300px;
+  height: 600px;
+  border-radius: 30px;
+  background-color: #fafafa;
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.trip__contents {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.trip .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  height: 15px;
+}
+
+.header .header__column {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.trip .trip__popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip__popular span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.trip__popular .viewall {
+  color: crimson;
+}
+
+.trip .trip__img {
+  margin-top: 15px;
+  width: 100%;
+  height: 160px;
+}
+
+.trip__img .imglgbox {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip__img .trip__img-down {
+  margin-top: 10px;
+}
+
+.imglgbox .trip__column {
+  width: 120px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imglgbox #img1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(0, 0, 0, 0.6) 80%
+    ),
+    url(src/barcelona_01.jpg);
+  background-size: cover;
+}
+
+.imglgbox #img2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(0, 0, 0, 0.6) 80%
+    ),
+    url(src/barcelona_02.jpg);
+  background-size: cover;
+}
+
+.imglgbox #img3 {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(0, 0, 0, 0.6) 80%
+    ),
+    url(src/barcelona_03.jpg);
+  background-size: cover;
+}
+
+.imglgbox #img4 {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(0, 0, 0, 0.6) 80%
+    ),
+    url(src/barcelona_04.jpg);
+  background-size: cover;
+}
+
+.trip__column .img-title {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.trip .trip__other {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.trip__other .other-title {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.trip .trip__locationbox {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.trip__locationbox .location {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.trip__locationbox .review {
+  font-size: 10px;
+}
+
+.trip__locationbox .btn {
+  display: flex;
+  align-items: center;
+}
+
+.trip__locationbox i {
+  width: 100%;
+  height: 12px;
+  font-size: 12px;
+  color: crimson;
+}
+
+.nav {
+  position: absolute;
+  bottom: 15px;
+  width: 270px;
+  height: 40px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav i {
+  font-size: 18px;
+}
+
+.nav__column:nth-child(2) {
+  color: crimson;
+}
